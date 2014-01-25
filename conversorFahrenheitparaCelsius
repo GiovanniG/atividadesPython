@@ -1,0 +1,7 @@
+print ('Conversor de Fahrenheit para Celsius \n')
+
+tempFahrenheit = float(input('Informe a temmperatura em Fahrenheit: ºF'))
+
+tempCelsius = 5 * (tempFahrenheit - 32) / 9
+
+print('\nA temperatura em Fahrenheit será de:',tempCelsius,'º')
